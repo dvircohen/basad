@@ -34,3 +34,6 @@ class ShabbatCheker():
         if time_in_range(candles, havdalah, datetime.datetime.now()):
             print("Your code ran on Shabbat and therefor not kosher. Exiting.")
             sys.exit(0)
+        else:
+            print(f"It is not Shabbat yet. You still have {( candles- datetime.datetime.now()).days} days")
+
