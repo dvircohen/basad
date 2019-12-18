@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'basad',         # How you named your package folder (MyLib)
   packages = ['basad'],   # Chose the same as "name"
-  version = '0.11',      # Start with a small number and increase it with every change you make
+  version = '0.12',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'Thid library write Basad at the beginning of your code',   # Give a short description about your library
   author = 'Dvir Cohen',                   # Type in your name
