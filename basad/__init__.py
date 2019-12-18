@@ -1,2 +1,2 @@
-from basad.main import BasadPrinter
+from basad.main import ShabbatCheker
 print("Basad")
